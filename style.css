@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;   
+    background: hsl(235, 18%, 26%); 
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 95vh;
+    
+}
+span {
+    display: flex;
+}
+span img {
+    padding: 0px 10px 0px 0px;
+}
+span p {
+    margin: 8px;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+h1 {
+    font-size: 40px;
+    margin: 13px 0px;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+}
+.container {
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.card {
+    display: flex;
+    padding: 20px;
+}
+
+.left {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto 10px;
+}
+p.join{
+    width: 400px;
+}
+.form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    margin-top: 10px;
+    padding: 20px 0px 20px 20px;
+    border: 1px solid hsl(231, 7%, 60%);
+    border-radius: 7px;
+    color: black;
+}
+.input:active{
+    border: 2px solid black;
+}
+.form label {
+    font-size: 13px;
+    font-weight: 700;
+}
+.subscribe{
+    margin-top: 20px;
+    text-align: center;
+    background: hsl(235, 18%, 26%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+}
+.subscribe:hover{
+    background: hsl(4, 100%, 67%);
+}
+.right {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+/* Media Queries */
+@media screen and (max-width:1024px) {
+    p.join{
+        width: 300px;
+    }
+}
+@media screen and (max-width:768px) {
+    p {
+        font-size: 13px;
+    }
+    p.join{
+        width: 250px;
+    }
+    .right{
+        margin-left: 0px;
+    }
+    .right img{
+        height: 500px;
+    }
+    .left{
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 640px) {
+    body{
+        background: white;
+    }
+    main{
+        height: 100%;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    .card {
+        margin: 0;
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .container{
+        margin: 0;
+    }
+    .left{
+        margin: 0 auto;
+        max-width: 400px;
+    }
+    .right{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .right img{
+        width: 100vw;
+        height: 100%;
+    }
+    span img {
+        padding: 0px 10px 0px 0px;
+    }
+    p.join{
+        width: 300px;
+    }
+}
