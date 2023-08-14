@@ -82,6 +82,10 @@ p.join{
 .input:active{
     border: 2px solid black;
 }
+.err-border{
+    border: 2px solid red;
+    background-color: hsla(39, 100%, 56%, 0.1);;
+}
 .form .label {
     font-size: 13px;
     font-weight: 700;
