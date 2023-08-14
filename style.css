@@ -70,7 +70,7 @@ p.join{
     font-size: 13px;
 }
 .error{
-    color: red;
+    color:  hsl(4, 100%, 67%);
 }
 .input{
     margin-top: 10px;
@@ -83,7 +83,7 @@ p.join{
     border: 2px solid black;
 }
 .err-border{
-    border: 2px solid red;
+    border: 2px solid  hsl(4, 100%, 67%);
     background-color: hsla(39, 100%, 56%, 0.1);;
 }
 .form .label {
