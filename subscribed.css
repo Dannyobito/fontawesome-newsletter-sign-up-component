@@ -13,21 +13,11 @@ main{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
     
-}
-span {
-    display: flex;
-}
-span img {
-    padding: 0px 10px 0px 0px;
-}
-span p {
-    margin: 8px;
 }
 a{
     text-decoration: none;
-    color: hsl(0, 0%, 100%);
 }
 h1 {
     font-size: 40px;
@@ -44,42 +34,19 @@ p{
 .card {
     display: flex;
     padding: 20px;
-}
-.left {
-    padding: 20px 10px;
-    display: flex;
-    flex-direction: column;
-    margin: auto 10px;
-}
-p.join{
-    width: 400px;
-}
-.form{
-    margin-top: 20px;
-    display: flex;
     flex-direction: column;
 }
-.input{
-    margin-top: 10px;
-    padding: 20px 0px 20px 20px;
-    border: 1px solid hsl(231, 7%, 60%);
-    border-radius: 7px;
-    color: black;
+.join{
+    width: 360px;
 }
-.input:active{
-    border: 2px solid black;
-}
-.form label {
-    font-size: 13px;
-    font-weight: 700;
-}
-.subscribe{
+
+.dismiss{
     margin-top: 20px;
     text-align: center;
     background: hsl(235, 18%, 26%);
     border-radius: 10px;
     color: hsl(0, 0%, 100%);
 }
-.subscribe:hover{
+.dismiss:hover{
     background: hsl(4, 100%, 67%);
 }
